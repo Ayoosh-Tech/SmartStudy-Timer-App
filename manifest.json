@@ -1,0 +1,15 @@
+{
+  "name": "Smart Study Timer",
+  "short_name": "StudyTimer",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#6b4f3b",
+  "theme_color": "#6b4f3b",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

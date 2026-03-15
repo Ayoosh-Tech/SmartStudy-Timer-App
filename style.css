@@ -1,0 +1,126 @@
+body{
+font-family: Arial;
+background-image: url("images/background.png");
+background-size: cover all;
+background-position: center;
+background-repeat: no-repeat;
+color: white;
+text-align: center;
+padding: 40px 10px;
+padding-top: 100px;
+}
+
+.timer-box{
+background: rgba(0,0,0,0.6);
+padding:30px;
+border-radius:12px;
+display: inline-block;
+align-items: center;
+/*width: 80%;*/
+}
+
+#time{
+font-size:70px;
+font-weight: bold;
+margin:25px 0;
+letter-spacing: 3px;
+text-shadow:0 0 10px rgba(255,255,255,0.3);
+}
+
+button{
+padding:8px 10px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-size: 13px;
+flex: 1;
+}
+
+/*.buttons{
+display:flex;
+justify-content:center;
+align-items: center;
+gap:10px;
+flex-wrap: wrap;
+width: 100%;
+}*/
+
+.buttons{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:6px;
+/*margin-top:10px;*/
+flex-wrap: nowrap;
+}
+
+.buttons button{
+flex:1;
+}
+
+button:hover{
+background:#8b6a4f;
+color: white;
+}
+ 
+h1 i{
+  margin-right: 3px;  /* space between icon and text */
+  font-size: 23px;     /* size of the clock icon */
+  vertical-align: middle;
+}
+
+.title{
+    font-size: 25px;
+    text-align: center;
+}
+
+.app{
+width: 85%;
+max-width:420px;
+margin:auto;
+background:rgba(0,0,0,0.6);
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+align-items: center;
+/*margin-top: 20px;*/
+}
+
+@media (min-width:768px){
+
+.app{
+max-width:500px;
+}
+
+#time{
+font-size:70px;
+}
+}
+
+/*.back-btn{
+color:white;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+}
+
+
+.back-btn:active{
+color:#8B5E3C;
+}*/
+.back-btn{
+display:inline-block;
+padding:6px 12px;
+border-radius:6px;
+background:rgba(0,0,0,0.3);
+transition:0.2s;
+color: white;
+text-decoration: none;
+}
+
+.back-btn:hover,
+.back-btn:focus,
+.back-btn:active{
+color:#8B5E3C;
+background:rgba(255,255,255,0.1);
+}

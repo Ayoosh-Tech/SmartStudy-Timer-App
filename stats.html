@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study Stats</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<h1>Study Statistics</h1>
+
+<p>Total Study Sessions:</p>
+
+<p id="sessions">0</p>
+
+<a href="index.html" class="back-btn"> Back</a>
+
+</div>
+
+<script>
+
+let sessions = localStorage.getItem("sessions") || 0;
+
+document.getElementById("sessions").innerText = sessions;
+
+</script>
+
+</body>
+
+</html>
